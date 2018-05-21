@@ -1,26 +1,10 @@
-@keyframes theHead {
-    0%   {background-color: #677077;}
-    25%  {background-color: #78837d;}
-    100%   {background-color: #677077;}
-}
-
-.jumbotron {
-    background-color: #9fa8a3;
-    color: white;
-    animation: theHead 3s infinite;
-}
-
-img.img-rounded {
-    border: 2px solid black;
-}
-
-body, html {
+html, body {
     height: 100%;
 }
 
 .bg { 
     /* The image used */
-    background-color: #e1e8f0;
+    background-color: #082A44;
 
     /* Full height */
     height: 100%; 
@@ -30,5 +14,5 @@ body, html {
 
     background-size: cover;
 
-    color: black
+    color: whitesmoke
 }
