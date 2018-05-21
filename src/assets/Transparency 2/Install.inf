@@ -1,0 +1,53 @@
+[Version]
+signature="$chicago$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"1.cur"
+"2.cur"
+"3.ani"
+"4.ani"
+"5.cur"
+"6.cur"
+"7.cur"
+"8.cur"
+"9.cur"
+"10.cur"
+"11.cur"
+"12.cur"
+"13.cur"
+"14.cur"
+"15.cur"
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR         = "Cursors\Transparency 2"
+SCHEME_NAME     = "Transparency 2"
+pointer		= "1.cur"
+help		= "2.cur"
+work		= "3.ani"
+busy		= "4.ani"
+cross		= "5.cur"
+text		= "6.cur"
+hand		= "7.cur"
+unavailiable	= "8.cur"
+vert		= "9.cur"
+horz		= "10.cur"
+dgn1		= "11.cur"
+dgn2		= "12.cur"
+move		= "13.cur"
+alternate	= "14.cur"
+link		= "15.cur"

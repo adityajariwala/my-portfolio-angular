@@ -17,11 +17,11 @@ export class LangPanelComponent implements OnInit {
   'devicon-python-plain', 'devicon-typescript-plain'];
 
   iconsText = ['devicon-android-plain-wordmark colored', 'devicon-angularjs-plain colored',
-  'devicon-bootstrap-plain-wordmark colored', 'devicon-c-line colored',
+  'devicon-bootstrap-plain-wordmark colored', 'devicon-c-plain colored',
   'devicon-cplusplus-plain colored', 'devicon-csharp-plain colored',
   'devicon-css3-plain-wordmark colored', 'devicon-git-plain-wordmark colored',
   'devicon-html5-plain-wordmark colored', 'devicon-java-plain-wordmark colored',
-  'devicon-javascript-plain colored', 'devicon-linux-plain colored',
+  'devicon-javascript-plain colored', 'fa fa-linux',
   'devicon-mysql-plain-wordmark colored', 'devicon-nodejs-plain-wordmark colored',
   'devicon-python-plain-wordmark colored', 'devicon-typescript-plain colored'];
 

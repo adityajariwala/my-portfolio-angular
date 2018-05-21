@@ -1,4 +1,4 @@
-html, body {
+.html, .body {
     height: 100%;
 }
 
@@ -15,4 +15,6 @@ html, body {
     background-size: cover;
 
     color: #D0D9E0;
+
+    cursor: url('../assets/transparent.cur'), auto;
 }

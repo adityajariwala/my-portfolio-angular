@@ -5,7 +5,7 @@
 .icon-bar a {
   width: 12.5%;
   text-align: center;
-  color: #d0d9e0;
+  color: #68869D;
   float: left;
   padding: 12px 0;
   transition: all 0.3s ease;
@@ -22,4 +22,9 @@
 
 .icon-bar a:hover .two {
   display: inline;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #D0D9E0;
 }
