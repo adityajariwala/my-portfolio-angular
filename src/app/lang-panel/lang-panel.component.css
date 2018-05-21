@@ -1,0 +1,25 @@
+.icon-bar {
+  width: 100%;
+  background-color: #082a44;
+}
+.icon-bar a {
+  width: 12.5%;
+  text-align: center;
+  color: #d0d9e0;
+  float: left;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  font-size: 48px;
+  background-color: #082a44;
+  border-bottom: 0 solid transparent;
+  text-decoration: none;
+}
+
+.icon-bar a .two,
+.icon-bar a:hover .one {
+  display: none;
+}
+
+.icon-bar a:hover .two {
+  display: inline;
+}

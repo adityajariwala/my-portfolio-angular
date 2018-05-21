@@ -1,3 +1,12 @@
-<p>
-  lang-panel works!
-</p>
+<div class="container">
+  <div class="icon-bar" *ngFor="let n of numbers">
+    <a href="#">
+      <div class="one">
+        <i [class]="icons[n]"></i>
+      </div>
+      <div class="two">
+        <i [class]="iconsText[n]"></i>
+      </div>
+    </a>
+  </div>
+</div>
