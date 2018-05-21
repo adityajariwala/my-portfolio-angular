@@ -7,7 +7,7 @@
 .jumbotron {
     background-color: #9fa8a3;
     color: white;
-    animation: theHead 2s infinite;
+    animation: theHead 3s infinite;
 }
 
 img.img-rounded {
