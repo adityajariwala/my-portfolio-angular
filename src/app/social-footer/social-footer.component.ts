@@ -14,7 +14,6 @@ export class SocialFooterComponent implements OnInit {
            'fa fa-twitter-square',
            'fa fa-envelope-square'];
 
-
   numbers = [];
 
   constructor() { this.numbers = Array<number>(6).fill(1).map((x, i) => i); }
@@ -43,6 +42,10 @@ export class SocialFooterComponent implements OnInit {
         window.open('mailto:ajariwala24@gmail.com?subject=From%20your%20website:%20(add%20subject%20here)', '_blank');
         break;
     }
+  }
+
+  getResume () {
+    window.open('/assets/resume.pdf', '_blank');
   }
 
 }
