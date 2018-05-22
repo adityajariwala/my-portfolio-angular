@@ -1,7 +1,13 @@
-import http from "http";
+const http = require('http');
+const path = require('path');
+const express = require('express');
+const app = express();
 
-http.createServer(function (request, response) {
-    response.writeHead(200, {"Content-type": "text/plain"});
-    response.end("Hello World\n");
-}).listen(process.end.PORT || 4200);
+app.use(express.static(path.join(__dirname, 'dist/myPortfolio')));
+
+app.get('*', (request, response) => {
+    response.sendFile(path.join(__dirname, 'dist/myPortfolio/index.html'));
+})
+
+http.createServer(app).listen(process.env.PORT || 4200);
 
