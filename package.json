@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "ng": "ng",
-    "start": "node index.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
