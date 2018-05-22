@@ -12,11 +12,12 @@ export class SocialFooterComponent implements OnInit {
            'fa fa-instagram',
            'fa fa-linkedin-square',
            'fa fa-twitter-square',
-           'fa fa-envelope-square'];
+           'fa fa-envelope-square',
+           'fa fa-chrome'];
 
   numbers = [];
 
-  constructor() { this.numbers = Array<number>(6).fill(1).map((x, i) => i); }
+  constructor() { this.numbers = Array<number>(7).fill(1).map((x, i) => i); }
 
   ngOnInit () {
   }
@@ -40,6 +41,9 @@ export class SocialFooterComponent implements OnInit {
         break;
       case 5:
         window.open('mailto:ajariwala24@gmail.com?subject=From%20your%20website:%20(add%20subject%20here)', '_blank');
+        break;
+      case 6:
+        window.open('https://www.ajlearns.com', '_blank');
         break;
     }
   }
