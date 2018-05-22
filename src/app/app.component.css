@@ -1,20 +1,29 @@
-.html, .body {
+body, html {
     height: 100%;
+    width: 100%;
+    background-color: #082A44;
 }
 
 .bg { 
     /* The image used */
-    background-color: #082A44;
+    /* background-color: #082A44; */
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Center and scale the image nicely */
     background-position: center;
-
+    background-repeat: no-repeat;
     background-size: cover;
 
     color: #D0D9E0;
 
     cursor: url('../assets/transparent.cur'), auto;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
 }
