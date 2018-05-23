@@ -15,18 +15,6 @@
   text-decoration: none;
 }
 
-.icon-bar a .two,
-.icon-bar a:hover .one,
-.icon-bar a .two,
-.icon-bar a:active .one {
-  display: none;
-}
-
-.icon-bar a:hover .two,
-.icon-bar a:active .two {
-  display: inline;
-}
-
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   color: #d0d9e0;

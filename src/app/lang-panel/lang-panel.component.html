@@ -1,12 +1,13 @@
 <div class="container">
   <h2> Progamming Experience:</h2>
   <div class="icon-bar" *ngFor="let n of numbers">
-    <a>
-      <div class="one">
-        <i [class]="icons[n]"></i>
-      </div>
-      <div class="two">
-        <i [class]="iconsText[n]"></i>
+    <a appIconChange>
+      <div class="row">
+        <i 
+          [class]="over[n] ? icons[n] : iconsText[n]" 
+          (mouseover)="over[n] = false" 
+          (mouseout)="over[n] = true" 
+          (click)="over[n] = !over[n]"></i>
       </div>
     </a>
   </div>

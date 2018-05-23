@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-lang-panel',
   templateUrl: './lang-panel.component.html',
-  styleUrls: ['./lang-panel.component.css']
+  styleUrls: ['./lang-panel.component.css'],
 })
 export class LangPanelComponent implements OnInit {
 
@@ -26,11 +26,13 @@ export class LangPanelComponent implements OnInit {
   'devicon-python-plain-wordmark colored', 'devicon-typescript-plain colored'];
 
   numbers = [];
+  over: boolean[];
 
   constructor() {
     this.numbers = Array<number>(16).fill(1).map((x, i) => i);
+    this.over = new Array<boolean>(16);
+    this.over.fill(true);
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 }
