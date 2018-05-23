@@ -32,3 +32,9 @@
     font-size: 10px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+  .icon-bar a {
+    padding: 0px 15px 10px 15px;
+  }
+}

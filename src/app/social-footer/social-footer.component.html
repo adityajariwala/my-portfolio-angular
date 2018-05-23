@@ -4,7 +4,7 @@
   <div class="icon-bar" *ngFor="let n of numbers">
     <a style="cursor: pointer;">
       <div class="one">
-        <i [class]="icons[n]"></i>
+        <i [class]="icons[n]" (click)="onClick(n)"></i>
       </div>
       <div class="two">
           <i [class]="icons[n]" (click)="onClick(n)"></i>
