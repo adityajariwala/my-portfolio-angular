@@ -9,7 +9,7 @@
   float: left;
   padding: 12px 0;
   transition: all 0.3s ease;
-  font-size: 48px;
+  font-size: 8vw;
   background-color: #082a44;
   border-bottom: 0 solid transparent;
   text-decoration: none;
@@ -20,8 +20,8 @@ h2 {
   color: #d0d9e0;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .icon-bar a {
     font-size: 24px;
   }
-}
+} */
