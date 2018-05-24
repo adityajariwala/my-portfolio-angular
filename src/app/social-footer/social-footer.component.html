@@ -4,12 +4,23 @@
   <div class="icon-bar" *ngFor="let n of numbers">
     <a style="cursor: pointer;" (click)="onClick(n)">
       <div class="one">
-        <i [class]="icons[n]" ></i>
+        <i [class]="icons[n]"></i>
       </div>
       <div class="two">
-          <i [class]="icons[n]"></i>
+        <i [class]="icons[n]"></i>
       </div>
     </a>
   </div>
-  <button class="btn pull-right" (click)="getResume()">[PDF] Résumé</button>
+  <br>
+</div>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-xs-12">
+      <p>Copyright © 2018 | My Portolio by Aditya Jariwala |
+        <a (click)="getResume()" style="cursor: pointer;">[PDF] Résumé</a>
+      </p>
+    </div>
+  </div>
+  <br>
+  <br>
 </div>
