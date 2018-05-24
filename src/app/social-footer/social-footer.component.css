@@ -22,7 +22,7 @@
 
 .container {
   background-color: #000d16;
-  box-shadow: 0px -20px 20px #000d16;
+  box-shadow: 0px -10px 20px #000d16;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -32,6 +32,11 @@ p {
     color: #d0d9e0;
     font-size: 14px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+br {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 /* 
 @media screen and (max-width: 800px) {

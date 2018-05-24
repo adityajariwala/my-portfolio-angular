@@ -1,17 +1,5 @@
-<br>
-<br>
 <div class="container">
-  <div class="icon-bar" *ngFor="let n of numbers">
-    <a style="cursor: pointer;" (click)="onClick(n)">
-      <div class="one">
-        <i [class]="icons[n]"></i>
-      </div>
-      <div class="two">
-        <i [class]="icons[n]"></i>
-      </div>
-    </a>
-  </div>
-  <br>
+  <br><br>
 </div>
 <div class="container">
   <div class="row text-center">
@@ -23,4 +11,16 @@
   </div>
   <br>
   <br>
+</div>
+<div class="container">
+  <div class="icon-bar" *ngFor="let n of numbers">
+    <a style="cursor: pointer;" (click)="onClick(n)">
+      <div class="one">
+        <i [class]="icons[n]"></i>
+      </div>
+      <div class="two">
+        <i [class]="icons[n]"></i>
+      </div>
+    </a>
+  </div>
 </div>

@@ -3,12 +3,10 @@
   <div class="icon-bar" *ngFor="let n of numbers">
     <a appIconChange>
       <div class="row">
-        <i 
-          [class]="over[n] ? icons[n] : iconsText[n]" 
-          (mouseover)="over[n] = false" 
-          (mouseout)="over[n] = true" 
-          (click)="over[n] = !over[n]"></i>
+        <i [class]="over[n] ? icons[n] : iconsText[n]" (mouseover)="over[n] = false" (mouseout)="over[n] = true" (click)="over[n] = !over[n]"></i>
       </div>
     </a>
   </div>
 </div>
+<br>
+<br>
