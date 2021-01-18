@@ -8,12 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class SocialFooterComponent implements OnInit {
 
   icons = ['fa fa-github-square',
-           'fa fa-facebook-square',
-           'fa fa-instagram',
            'fa fa-linkedin-square',
-           'fa fa-twitter-square',
-           'fa fa-envelope-square',
-           'fa fa-chrome'];
+           'fa fa-envelope-square'];
 
   numbers = [];
 
@@ -28,22 +24,10 @@ export class SocialFooterComponent implements OnInit {
         window.open('https://github.com/adityajariwala', '_blank');
         break;
       case 1:
-        window.open('https://www.facebook.com/aditya.jariwala', '_blank');
-        break;
-      case 2:
-        window.open('https://www.instagram.com/adityajariwala', '_blank');
-        break;
-      case 3:
         window.open('https://www.linkedin.com/in/aditya-jariwala', '_blank');
         break;
-      case 4:
-        window.open('https://www.twitter.com/AdityaJ15', '_blank');
-        break;
-      case 5:
+      case 2:
         window.open('mailto:ajariwala24@gmail.com?subject=From%20your%20website:%20(add%20subject%20here)', '_blank');
-        break;
-      case 6:
-        window.open('https://www.ajlearns.com', '_blank');
         break;
     }
   }
