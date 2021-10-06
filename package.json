@@ -1,78 +1,79 @@
 {
-  "name": "my-portfolio-angular",
-  "version": "1.0.0",
-  "description": "My CS Portfolio",
-  "main": "index.js",
-  "scripts": {
-    "ng": "ng",
-    "start": "node index.js",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot=true --prod=true"
-  },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "^12.2.8",
-    "@angular/common": "^12.2.8",
-    "@angular/core": "^12.2.8",
-    "@angular/forms": "^12.2.8",
-    "@angular/material": "^12.2.8",
-    "@angular/platform-browser": "^12.2.8",
-    "@angular/platform-browser-dynamic": "^12.2.8",
-    "@angular/router": "^12.2.8",
-    "@ngtools/webpack": "^12.2.8",
-    "bootstrap": "^5.1.2",
-    "core-js": "^3.8.2",
-    "express": "^4.17.1",
-    "jquery": "^3.5.1",
-    "codelyzer": "^6.0.2",
-    "firebase": "^9.1.1",
-    "npm": "^7.24.2",
-    "popper.js": "^1.16.1",
-    "postcss": "^8.3.6",
-    "protractor": "^7.0.0",
-    "rxjs": "^7.4.0",
-    "sass": "^1.42.1",
-    "sockjs": "^0.3.21",
-    "webpack": "^5.51.1",
-    "yaml": "^1.10.2",
-    "zone.js": "^0.11.4"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "^12.2.8",
-    "@angular/cli": "^12.2.8",
-    "@angular/compiler-cli": "^12.2.8",
-    "@angular/language-service": "^12.2.8",
-    "@types/jasmine": "~3.9.1",
-    "@types/jasminewd2": "~2.0.8",
-    "@types/node": "~16.10.3",
-    "codelyzer": "^6.0.1",
-    "enhanced-resolve": "^5.7.0",
-    "protractor": "~7.0.0",
-    "ts-node": "~10.2.1",
-    "tslint": "~6.1.3",
-    "typescript": "^4.3.2"
-  },
-  "engines": {
-    "node": "14.18.0",
-    "npm": "7.24.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adityajariwala/my-portfolio-angular.git"
-  },
-  "keywords": [
-    "node",
-    "nodejs",
-    "npm",
-    "Angular"
-  ],
-  "author": "Aditya Jariwala",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adityajariwala/my-portfolio-angular/issues"
-  },
-  "homepage": "https://github.com/adityajariwala/my-portfolio-angular#readme"
+    "name": "my-portfolio-angular",
+    "version": "1.0.0",
+    "description": "My CS Portfolio",
+    "main": "index.js",
+    "scripts": {
+        "ng": "ng",
+        "start": "node index.js",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+        "postinstall": "ng build"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "^12.2.8",
+        "@angular/common": "^12.2.8",
+        "@angular/core": "^12.2.8",
+        "@angular/forms": "^12.2.8",
+        "@angular/material": "^12.2.8",
+        "@angular/platform-browser": "^12.2.8",
+        "@angular/platform-browser-dynamic": "^12.2.8",
+        "@angular/router": "^12.2.8",
+        "@ngtools/webpack": "^12.2.8",
+        "bootstrap": "^5.1.2",
+        "core-js": "^3.8.2",
+        "express": "^4.17.1",
+        "jquery": "^3.5.1",
+        "codelyzer": "^6.0.2",
+        "firebase": "^9.1.1",
+        "npm": "^7.24.2",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.3.6",
+        "protractor": "^7.0.0",
+        "rxjs": "^7.4.0",
+        "sass": "^1.42.1",
+        "sockjs": "^0.3.21",
+        "webpack": "^5.51.1",
+        "yaml": "^1.10.2",
+        "zone.js": "^0.11.4"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^12.2.8",
+        "@angular/cli": "^12.2.8",
+        "@angular/compiler": "^12.2.8",
+        "@angular/compiler-cli": "^12.2.8",
+        "@angular/language-service": "^12.2.8",
+        "@types/jasmine": "~3.9.1",
+        "@types/jasminewd2": "~2.0.8",
+        "@types/node": "~16.10.3",
+        "codelyzer": "^6.0.1",
+        "enhanced-resolve": "^5.7.0",
+        "protractor": "~7.0.0",
+        "ts-node": "~10.2.1",
+        "tslint": "~6.1.3",
+        "typescript": "^4.3.2"
+    },
+    "engines": {
+        "node": "14.18.0",
+        "npm": "7.24.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adityajariwala/my-portfolio-angular.git"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "npm",
+        "Angular"
+    ],
+    "author": "Aditya Jariwala",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/adityajariwala/my-portfolio-angular/issues"
+    },
+    "homepage": "https://github.com/adityajariwala/my-portfolio-angular#readme"
 }
