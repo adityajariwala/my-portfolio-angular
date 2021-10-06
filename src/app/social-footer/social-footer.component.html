@@ -1,26 +1,39 @@
-<div class="container">
-  <br><br>
-</div>
-<div class="container">
-  <div class="row text-center">
-    <div class="col-xs-12">
-      <p>Copyright © 2018 | My Portolio by Aditya Jariwala |
-        <a (click)="getResume()" style="cursor: pointer;">[PDF] Résumé</a>
-      </p>
-    </div>
+<div class="col-xs-12" style="display:flex; justify-content:center">
+    <p>Copyright © 2018 | My Portolio by Aditya Jariwala |
+      <a (click)="getResume()" style="cursor: pointer;">[PDF] Résumé</a>
+    </p>
   </div>
-  <br>
-  <br>
+<div class="icon-bar" *ngFor="let n of numbers">
+  <a style="cursor: pointer;" (click)="onClick(n)">
+    <div class="one">
+      <i [class]="icons[n]"></i>
+    </div>
+    <div class="two">
+      <i [class]="icons[n]"></i>
+    </div>
+  </a>
 </div>
-<div class="container">
-  <div class="icon-bar" *ngFor="let n of numbers">
-    <a style="cursor: pointer;" (click)="onClick(n)">
-      <div class="one">
-        <i [class]="icons[n]"></i>
+<div style="width:auto">
+  <div class="container">
+    <br><br>
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <p>Copyright © 2018 | My Portolio by Aditya Jariwala |
+          <a (click)="getResume()" style="cursor: pointer;">[PDF] Résumé</a>
+        </p>
       </div>
-      <div class="two">
-        <i [class]="icons[n]"></i>
-      </div>
-    </a>
+    </div>
+    <br>
+    <br>
+    <div class="icon-bar" *ngFor="let n of numbers">
+      <a style="cursor: pointer;" (click)="onClick(n)">
+        <div class="one">
+          <i [class]="icons[n]"></i>
+        </div>
+        <div class="two">
+          <i [class]="icons[n]"></i>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
