@@ -37,7 +37,7 @@
         "sass": "^1.42.1",
         "sockjs": "^0.3.21",
         "webpack": "^5.51.1",
-        "yaml": "^1.10.2",
+        "yaml": "^2.2.2",
         "zone.js": "^0.11.4"
     },
     "devDependencies": {
